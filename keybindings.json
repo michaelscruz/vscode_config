@@ -1,0 +1,18 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": ", n",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": ", n",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "searchViewletVisible"
+  },
+  {
+    "key": ", t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  }
+]

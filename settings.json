@@ -1,0 +1,96 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.fontSize": 12,
+  "editor.renderWhitespace": "boundary",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<ESC>"]
+    }
+  ],
+  "vim.otherModesKeyBindings": [
+    {
+      "before": ["<space>"],
+      "after": ["%"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.toggleTerminal",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "after": [],
+      "commands": [
+        {
+          "command": "editor.action.commentLine",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "C"],
+      "after": [],
+      "commands": [
+        {
+          "command": "editor.action.blockComment",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": [],
+      "commands": [
+        {
+          "command": "editor.action.trimTrailingWhitespace",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "a"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.view.search",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "after": [],
+      "commands":[
+        {
+          "command": "workbench.action.toggleSidebarVisibility",
+          "args": []
+        }
+      ]
+    }
+  ],
+  "vim.leader": ",",
+  "vim.incsearch": true,
+  "vim.easymotion": true,
+  "vim.smartcase": true,
+  "vim.enableNeovim": true,
+  "vim.disableAnnoyingNeovimMessage": true,
+  "vim.hlsearch": false
+}
