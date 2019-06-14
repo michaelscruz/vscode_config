@@ -1,19 +1,57 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
+  "editor.lineHeight": 18,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.rulers": [140],
   "editor.insertSpaces": true,
   "editor.fontSize": 12,
   "editor.renderWhitespace": "boundary",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "ruby.intellisense": "rubyLocate",
+  "terminal.integrated.fontFamily": "Fira Code",
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
       "after": ["<ESC>"]
     }
   ],
-  "vim.otherModesKeyBindings": [
+  "vim.normalModeKeyBindings": [
     {
       "before": ["<space>"],
       "after": ["%"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.closeEditorsInGroup",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditorDown",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditorRight",
+          "args": []
+        }
+      ]
     },
     {
       "before": ["<leader>", "t"],
@@ -84,6 +122,16 @@
           "args": []
         }
       ]
+    },
+    {
+      "before": ["<leader>", "X"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.closeActiveEditor",
+          "args": []
+        }
+      ]
     }
   ],
   "vim.leader": ",",
@@ -92,5 +140,8 @@
   "vim.smartcase": true,
   "vim.enableNeovim": true,
   "vim.disableAnnoyingNeovimMessage": true,
-  "vim.hlsearch": false
+  "vim.hlsearch": false,
+  "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Solarized Dark"
 }
