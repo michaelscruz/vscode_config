@@ -11,6 +11,10 @@
     "when": "searchViewletVisible"
   },
   {
+    "key":"shift+5",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
     "key": "escape",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminalFocus"

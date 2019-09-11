@@ -10,6 +10,7 @@
   "editor.renderWhitespace": "boundary",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.acceptSuggestionOnCommitCharacter": false,
+  "emmet.includeLanguages": {"erb": "html"},
   "ruby.intellisense": "rubyLocate",
   "terminal.integrated.fontFamily": "Fira Code",
   "vim.insertModeKeyBindings": [
@@ -143,5 +144,5 @@
   "vim.hlsearch": false,
   "window.zoomLevel": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Solarized Dark"
+  "workbench.colorTheme": "Solarized Dark",
 }
