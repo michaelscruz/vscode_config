@@ -1,16 +1,31 @@
 {
+  "files.associations": {
+    "*.eex": "html",
+    "*.leex": "html",
+    "*.heex": "phoenix-heex"
+  },
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
   "editor.lineHeight": 18,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.rulers": [140],
+  "editor.rulers": [120],
   "editor.insertSpaces": true,
   "editor.fontSize": 12,
   "editor.renderWhitespace": "boundary",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "emmet.includeLanguages": {"erb": "html"},
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "eex": "html",
+    "elixir": "html",
+    "phoenix-heex": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "elixirLS.suggestSpecs": false,
+  "elixirLS.dialyzerEnabled": true,
+  "elixirLS.signatureAfterComplete": false,
+  "elixirLS.fetchDeps": false,
   "ruby.intellisense": "rubyLocate",
   "terminal.integrated.fontFamily": "Fira Code",
   "vim.insertModeKeyBindings": [
@@ -139,10 +154,8 @@
   "vim.incsearch": true,
   "vim.easymotion": true,
   "vim.smartcase": true,
-  "vim.enableNeovim": true,
-  "vim.disableAnnoyingNeovimMessage": true,
   "vim.hlsearch": false,
-  "window.zoomLevel": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Solarized Dark",
+  "editor.codeActionsOnSave": null
 }

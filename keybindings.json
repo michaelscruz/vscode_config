@@ -11,7 +11,7 @@
     "when": "searchViewletVisible"
   },
   {
-    "key":"shift+5",
+    "key":"ctrl+5",
     "command": "editor.emmet.action.matchTag"
   },
   {
