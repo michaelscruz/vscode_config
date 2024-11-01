@@ -157,5 +157,13 @@
   "vim.hlsearch": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Solarized Dark",
-  "editor.codeActionsOnSave": null
+  "editor.codeActionsOnSave": null,
+  "[elixir]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[phoenix-heex]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  }
 }
